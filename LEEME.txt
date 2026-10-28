@@ -1,0 +1,41 @@
+CONTROL DE HORAS · App para Android (PWA)
+==========================================
+
+Contenido de la carpeta
+  index.html            la app
+  manifest.webmanifest  nombre, colores e icono de la app
+  sw.js                 hace que funcione sin conexión
+  icons/                iconos
+
+1) PUBLICARLA (una sola vez) — GitHub Pages, gratis
+  1. Crea una cuenta en https://github.com (si no tienes).
+  2. Pulsa "New repository", ponle de nombre: control-horas  y márcalo como Public.
+  3. En el repositorio pulsa "Add file" > "Upload files" y arrastra TODO el contenido
+     de esta carpeta (index.html, manifest.webmanifest, sw.js y la carpeta icons).
+     Pulsa "Commit changes".
+  4. Ve a Settings > Pages. En "Branch" elige "main" y "/ (root)" y pulsa Save.
+  5. En 1-2 minutos tendrás la dirección:  https://TU-USUARIO.github.io/control-horas/
+
+  (Alternativa: Netlify, https://app.netlify.com/drop — arrastras la carpeta y te da la dirección.)
+
+2) INSTALARLA EN EL ANDROID
+  1. Abre esa dirección en Google Chrome.
+  2. Toca el menú ⋮ > "Instalar aplicación" (o "Añadir a pantalla de inicio" > Instalar).
+  3. Aparece en el móvil con su icono. Ábrela siempre desde ahí.
+
+3) PASAR TUS DATOS
+  - En la app antigua (Claude o el archivo .html) pulsa "Exportar".
+  - En la app instalada pulsa "Importar", elige el archivo y "Combinar".
+
+4) IMPORTANTE
+  - Los datos se guardan en el móvil. Haz "Exportar" de vez en cuando (por ejemplo,
+    cada semana) y guarda la copia en Google Drive.
+  - Si desinstalas la app o borras los datos de Chrome, se pierden los datos que no
+    hayas exportado.
+  - La primera vez ábrela con conexión: así se guardan los gráficos y las tipografías
+    y después funciona sin internet.
+
+5) ACTUALIZAR LA APP
+  - Sube el nuevo index.html al repositorio y, en sw.js, cambia la línea VERSION
+    (por ejemplo a 'v2-2026-11-15'). La app se actualiza sola al abrirla con conexión;
+    tus datos no se tocan.

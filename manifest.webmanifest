@@ -1,0 +1,24 @@
+{
+  "name": "Control de Horas",
+  "short_name": "Control Horas",
+  "description": "Registro de jornada, nocturnas, festivos, vacaciones y sueldo según el convenio estatal de industrias lácteas.",
+  "lang": "es-ES",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eaeef1",
+  "theme_color": "#0e6a6a",
+  "categories": ["productivity", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Fichar", "url": "./#hoy", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Registro", "url": "./#reg", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
